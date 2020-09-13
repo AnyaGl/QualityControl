@@ -1,0 +1,66 @@
+1 2 3
+not a triangle
+2 3 4
+ordinary
+3,1 2,1 4,1
+ordinary
+"2 3 4"
+unknown error
+2 3 4 4
+unknown error
+2 3 
+unknown error
+
+unknown error
+2.3 4 4
+unknown error
+null null null
+unknown error
+2 ! 3
+unknown error
+2 ! 3 4
+unknown error
+1,1 2,2 3,2
+ordinary
+2,0000009 2,0000001 3
+isosceles
+2,0000009 3 2,0000001
+isosceles
+3 2 2
+isosceles
+2,000009 2,000001 3
+ordinary
+2,0000009 2,0000001 2
+equilateral
+2,0000009 2 2,0000001
+equilateral
+2 2 2
+equilateral
+2,000009 2,000001 2
+ordinary
+-2 -3 -4
+not a triangle
+2 3 -4
+not a triangle
+2,7 3,000001 -4,5
+not a triangle
+1,000000009 2,000000001 3
+ordinary
+2 2 10
+not a triangle
+0 1 1
+not a triangle
+1/3 1 1
+unknown error
+1,7976931348623157E+308 1,7976931348623157E+308 1,7976931348623157E+308
+equilateral
+1,7976931348623157E+308 1,7976931348623157E+308 1,8976931348623157E+308
+not a triangle
+1,8976931348623157E+308 1,8976931348623157E+308 1,8976931348623157E+308
+not a triangle
+-1,7976931348623157E+308 -1,7976931348623157E+308 -1,7976931348623157E+308
+not a triangle
+-1,8976931348623157E+308 -1,8976931348623157E+308 -1,8976931348623157E+308
+not a triangle
+0 0 -1,8976931348623157E+308
+not a triangle

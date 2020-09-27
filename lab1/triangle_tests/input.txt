@@ -1,3 +1,5 @@
+A B B
+unknown error
 1 2 3
 not a triangle
 2 3 4

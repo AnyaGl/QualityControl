@@ -1,0 +1,27 @@
+Font:				 Verdana, Arial, Times New Roman, Calibri, Courier New
+Size:				 1, 12, 20, 70
+Inscription:			 usual, italic, bold, bold italic
+Text color:			 white, black, red
+Underline:			 no, line, dotted, wavy
+Underline color:		 no, white, black, red
+Crossed out:			 true, false
+Double strikethrough:		 true, false
+Superscript:			 true, false
+Subscript:			 true, false
+Shift: 		  	 	 -100, -50, -1, 0, 1, 50, 100
+Small caps: 		 	 true, false
+All uppercase: 		 	 true, false
+Align height of characters:	 true, false
+
+{Font, Size, Inscription, Text color, Underline, Underline color, Crossed out, Double strikethrough, Superscript, Subscript, Shift, Small caps, All uppercase, Align height of characters} @ 2
+
+IF [Crossed out] = "true" THEN [Double strikethrough] = "false";
+IF [Superscript] = "true" THEN [Subscript] = "false";
+IF [Small caps] = "true" THEN [All uppercase] = "false";
+IF [Shift] in {-100, -50, -1} THEN [Superscript] = "true";
+IF [Shift] in {1, 50, 100} THEN [Subscript] = "true";
+IF [Shift] = 0 THEN [Subscript] = "false" AND [Superscript] = "false";
+IF [Underline] = "no" THEN [Underline color] = "no";
+IF [Underline color] = "no" THEN [Underline] = "no";
+
+
